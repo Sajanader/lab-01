@@ -1,5 +1,71 @@
 
+
 * {
   box-sizing: border-box;
   text-align: center;
 }
+
+    /* For mobile: */
+
+    body{width: 480px;
+      height: 767;}
+    .a{
+      width: 100%;
+      height: 75px;
+      background-color: rgb(82, 240, 240);
+      line-height: 75px;
+  }
+  .b{
+      width: 100%;
+      height: 150px;
+      background-color: rgb(82, 85, 240);
+      line-height: 150px;
+  }
+  .c,.d{ width: 100%;
+      height: 125px;
+      line-height: 125px;
+      
+  }
+  .c{
+     
+      background-color: rgb(240, 140, 82);
+  }
+  .d{
+      background-color: rgb(190, 163, 177);
+  }
+  .e ,.f,.g ,.h{
+      height: 250px;
+      line-height: 250px;
+      width:50% ;
+  }
+  
+  .e{ 
+      float: left;
+     background-color: blueviolet;}
+  .f{ 
+    float: right;
+     background-color: rgb(171, 206, 45);}
+.g{ 
+  clear: left;
+  float: left;
+    background-color: rgb(226, 43, 43);}
+.h{ 
+  clear: right;
+  float: right;
+  background-color: rgb(206, 45, 134);}
+
+    
+.i { clear: both;
+  width:100%;
+  height: 80px;
+  background-color: green;
+  line-height: 80px;}
+
+
+  * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  
+
