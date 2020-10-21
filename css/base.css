@@ -1,4 +1,10 @@
 
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
     /* For mobile: */
 
     body{width: 480px;
@@ -62,3 +68,4 @@
   }
   
   
+
