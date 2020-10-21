@@ -1,6 +1,6 @@
 
 
-   @media only screen and (min-width: 768px),(max-width: 960px){
+   @media only screen and (min-width: 768px){
     /* For desktop: */
      body{width: 960px;
            height: 768px;}
@@ -64,5 +64,5 @@
    line-height: 150px;
    width: 79.2%;
     }
-  
+}
 
