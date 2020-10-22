@@ -1,7 +1,61 @@
 
-aside{
-    clear: both;
+@media(min-width: 551px),(max-width:767){ 
+    /* For tablet: */
 
-}
+  body{width: 767px;
+    height: 780px;
+     display: grid;  
+     grid-template-columns: repeat(5,20%); 
+     grid-template-rows: repeat(4,25%); 
+     text-align: center;
+        
+        }
+    .a{
+     grid-column: 1/6;
+      background-color: rgb(6, 2, 240);
+   
+  }
+  .b{  grid-column: 1;
+      grid-row:2/5; 
+      background-color: rgb(56, 112, 75);
+    
+  }
+ 
+  .c{  grid-row: 2;
+      grid-column: 2/4;
+      background-color: rgb(247, 94, 6);
+  }
+  .d{   grid-row: 2;
+       grid-column: 4/6;
+      background-color: rgb(253, 4, 137);
+  }
+  
+  .e { grid-column: 2;
+    grid-row: 3;
+      background-color: rgb(218, 198, 15);
+  }
+  .f{
+    grid-column: 3;
+    grid-row: 3;
+  background-color: rgb(170, 93, 243);
+  }
+  .g{
+    grid-column: 4;
+    grid-row: 3;
+      background-color: rgb(20, 107, 57);
+      }
+  .h{
+    grid-column: 5;
+    grid-row: 3;
+    background-color: rgb(211, 66, 78);
+      }
+  .i{
+      grid-column: 2/6;
+      grid-row: 4;
+      background-color: rgb(43, 226, 67);
+
+    }
+} 
+
 
 
